@@ -3,21 +3,71 @@ h1{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 42px;
 }
-/*Fin de fuentas*/
+
+h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;    
+}
+
+a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;    
+}
+
+strong{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+em{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+/*Fin de fuentes*/
 
 body{
     margin: 0px;
 }
 
+/*Inicio menu de navegacion"*/
 header{
     width: 100%;
     background-color: aqua;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     
 }
 
@@ -33,6 +83,21 @@ header section {
     align-items: center;
 }
 
+header ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+header li{
+    margin: 10px;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+}
+/*Fin menu de navegacion"*/
 
 footer {
     display: flex;
