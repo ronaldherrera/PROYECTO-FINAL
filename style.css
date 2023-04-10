@@ -63,11 +63,14 @@ body{
 /*Inicio menu de navegacion"*/
 header{
     width: 100%;
-    background-color: aqua;
+    background-color: #1E1E1E;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    top: 0px;
     
 }
 
@@ -76,6 +79,7 @@ header img{
     height: 50px;
     border-radius: 10px;
     margin: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 header section {
@@ -96,9 +100,103 @@ header li{
 
 header a {
     text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 23px;
+    color: #F0F0F0;
 }
+
+header a:active{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 23px;
+    color: #893511;
+}
+
+header h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #F0F0F0;
+
+}
+
+header hr{
+    margin: 5px;
+    height: 30px;
+    border: 3px solid #893511;
+    border-radius: 5px 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 /*Fin menu de navegacion"*/
 
-footer {
-    display: flex;
+/*main*/
+main{
+    width: 100%;
+    background: #4C5A5B;
+    padding-bottom: 10px;
+    padding-top: 1px;
+    
+    
 }
+/*fin del main*/
+
+/*Footer*/
+footer {
+    width: 100%;
+    display: flex;
+    background-color: #363D40;
+    padding: 0;
+    justify-content: space-between;
+}
+
+footer section{
+padding: 10px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0px;
+    margin: 0;
+    height: fit-content;
+}
+
+footer li{
+    
+    list-style: none;
+    
+}
+
+footer a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 12px;
+    line-height: 23px;
+    color: #1E1E1E;
+}
+
+footer img{
+    width: 40px;
+}
+
+footer h3{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    color: #1E1E1E;
+}
+/*Fin del Footer*/
